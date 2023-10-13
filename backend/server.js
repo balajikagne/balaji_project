@@ -13,7 +13,7 @@ mongoose.connect(DB,{useUnifiedTopology:true,useNewUrlParser:true}).then(()=>{
 
 //
 app.use(cors({
-    origin:["https://zingy-clafoutis-b24053.netlify.app/"],
+    origin:["https://balaji-project-x3oj-jhejbluhg-balajikagne.vercel.app/"],
     methods:["POST","GET"],
     Credential:true
 }))
